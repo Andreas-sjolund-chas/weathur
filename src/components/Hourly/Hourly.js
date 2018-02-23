@@ -159,7 +159,7 @@ class Hourly extends Component {
                     <div>    
 
                         <div className="row">
-                            <table>
+                            <table className="table">
                                 <caption><p>Todays weather in {this.state.name}</p></caption>
                                 <thead>
                                     <tr>

@@ -6,8 +6,10 @@
     background-color: rgb(50, 76, 190);
 }
 
-table {
+.table {
     margin-top: 10px;
+    border-spacing: 0;
+    border-collapse: none;
 }
 
 thead {

@@ -294,10 +294,11 @@ class FiveDays extends Component {
                     <p>Currently showing: Celsius</p>
                 }
                 </div>
+                <div className="error-msg"><p>{this.state.error}</p></div>
                 { this.state.forecast && this.state.forecast.length > 0 ? 
                     <div>    
                         <div className="row">
-                            <table>
+                            <table className="table">
                                 <caption><p>Next few days in {this.state.name}</p></caption>
                                 <thead>
 

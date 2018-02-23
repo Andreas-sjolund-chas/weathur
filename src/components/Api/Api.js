@@ -62,7 +62,7 @@ export function searchWeatherByCity(cityname) {
 
         } else {
             let object = {};
-            object.error = [`Inga resultat för ${cityname} hittades, vänligen sök igen`];
+            object.error = [`No results for ${cityname} found, please try to search again`];
 
 
             return object;
@@ -80,7 +80,7 @@ export function searchForecastByCity(cityname, count) {
                 return res;
             } else {
                 let object = {};
-                object.error = [`Inga resultat för ${cityname} hittades, vänligen sök igen`];
+                object.error = [`No results for ${cityname} found, please try to search again`];
     
     
                 return object;
@@ -96,7 +96,7 @@ export function searchForecastByCity(cityname, count) {
                     return res;
                 } else {
                     let object = {};
-                    object.error = [`Inga resultat hittades, vänligen försök igen`];
+                    object.error = [`No results found, please try again`];
         
         
                     return object;

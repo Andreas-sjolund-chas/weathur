@@ -11,7 +11,12 @@
     color: white;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    
+  }
+
+  .App-logo {
+    left: 0px;
   }
   
   .App-title {
