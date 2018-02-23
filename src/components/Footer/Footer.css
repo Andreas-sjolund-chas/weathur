@@ -1,0 +1,16 @@
+.App-footer {
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    margin: 15px auto;
+    margin-bottom: 0px;
+}
+
+.iconCredit {
+    margin: 5px;
+}
