@@ -51,8 +51,6 @@ class Hourly extends Component {
                         forecast: res.list,
                         temps: temps,
                         error: null
-                    }, function() {
-                        console.log(this.state);
                     });
                     } else {
                         this.setState({

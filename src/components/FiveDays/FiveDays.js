@@ -204,7 +204,6 @@ class FiveDays extends Component {
         this.setState(prevState => ({
             farenheit: !prevState.farenheit
         }), function() {
-            console.log(this.state.farenheit);
             if(this.state.farenheit) {
 
                 let highTemperatures = [];
@@ -297,7 +296,6 @@ class FiveDays extends Component {
                 </div>
                 { this.state.forecast && this.state.forecast.length > 0 ? 
                     <div>    
-                        {console.log(this.state)}
                         <div className="row">
                             <table>
                                 <caption><p>Next few days in {this.state.name}</p></caption>
