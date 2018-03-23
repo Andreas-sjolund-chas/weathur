@@ -1,9 +1,9 @@
 .odd {
-    background-color: rgb(60, 106, 255);
+    background-color: #2196f3;
 }
 
 .even {
-    background-color: rgb(50, 76, 190);
+    background-color: #7db9e8;
 }
 
 .table {
@@ -13,11 +13,11 @@
 }
 
 thead {
-    background-color: rgb(83, 96, 153);
+    background-color: #7db9e8;
 }
 
 caption {
-    background-color: rgb(83, 96, 153);
+    background-color: #7db9e8;
     height: 50px;
 
 }

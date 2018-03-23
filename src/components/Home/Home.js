@@ -5,11 +5,9 @@ class Home extends Component {
     render() {
         return ( 
            <div>
-            <h1>
-            Welcome to my first app in react.
-            </h1>
+            <h1>Welcome to my first app in react.</h1>
 
-            <h3>Navigate through above the routes to see weather</h3>
+            <h3>Navigate above through the routes to see weather</h3>
            </div>
         )
     }

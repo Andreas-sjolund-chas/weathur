@@ -8,6 +8,8 @@ html, body, #root, .App, .App {
 
 .App {
   text-align: center;
+  min-height: 100vh;
+  background-color: #ebebeb;
 }
 
 .App-content {
@@ -18,14 +20,35 @@ html, body, #root, .App, .App {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  margin-top: 0px;
+  justify-content: center;
+  font-size: 1.4rem;
+  background-color: #222;
 }
 
 .App-router-item {
   margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.App-router-item:hover {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.App-router-item:focus {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.App-router-link {
+  text-decoration: none;
+  color: #FFF;
 }
 
 body {
   position: relative;
   margin: 0;
   padding: 0;
+  padding-bottom: 100px;
 }
